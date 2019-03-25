@@ -10,23 +10,7 @@
   <meta property="og:image" content="game.ico" />
   <meta name="keywords" content="custom made video games, games, fun, email, github site ,video game editor, customvideogamesgithub@gmail.com">
 <title>NorthShore Custom made video games!</title>
-<script language="javascript" type="text/javascript">
 
-document.oncontextmenu=RightMouseDown;
-document.onmousedown = mouseDown; 
-
-
-
-function mouseDown(e) {
-    if (e.which==3) {//righClick
-        alert("Right-click menu goes here");
-    }
-}
-
-
-function RightMouseDown() { return false; }
-
-</script>
 </head>
 <body style='background-color:blue;'>
   <center><h1 style='color: red;'> Welcome to, <br> CUSTOM MADE VIDEO GAMEZ!!!</h1></center>
@@ -98,6 +82,12 @@ function RightMouseDown() { return false; }
 	box-shadow: 2px 2px 3px #000;
 }
  </style>
-  
+  <menu type="context" id="my-right-click-menu">
+ <menuitem label="Please do not steal our images" icon="img/forbidden.png"></menuitem>
+<menu label="Social Networks">
+<menuitem label="Share on Facebook" onclick="window.location.href = 'http://facebook.com/sharer/sharer.php?u=' + window.location.href;"></menuitem>
+</menu>
+    <menuitem label="Refresh" onclick="window.location.reload()"></menuitem>
+  </menu>
   </body>
 </html>
