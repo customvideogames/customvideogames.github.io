@@ -1,18 +1,12 @@
-<script>
-// request permission on page load
-document.addEventListener('DOMContentLoaded', function () {
-  if (!Notification) {
-    alert('Desktop notifications not available in your browser. Try Chromium.'); 
-    return;
-  }
-
-  if (Notification.permission !== "granted")
-</script>
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <title>Notify.js demo</title>
+<meta name="description" content="Notify.js is a simple wrapper for the Web Notification API" />
+<meta name="author" content="Alex Gibson" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
 <style>
 button {
 	width: 100px;
