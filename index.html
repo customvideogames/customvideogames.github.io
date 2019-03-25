@@ -10,6 +10,19 @@
   <meta property="og:image" content="game.ico" />
   <meta name="keywords" content="custom made video games, games, fun, email, github site ,video game editor, customvideogamesgithub@gmail.com">
 <title>NorthShore Custom made video games!</title>
+<script type="text/javascript">
+    if (document.addEventListener) { // IE >= 9; other browsers
+        document.addEventListener('contextmenu', function(e) {
+            alert("You've tried to open context menu"); //here you draw your own menu
+            e.preventDefault();
+        }, false);
+    } else { // IE < 9
+        document.attachEvent('oncontextmenu', function() {
+            alert("You've tried to open context menu");
+            window.event.returnValue = false;
+        });
+    }
+</script>
 </head>
 <body style='background-color:blue;'>
   <center><h1 style='color: red;'> Welcome to, <br> CUSTOM MADE VIDEO GAMEZ!!!</h1></center>
